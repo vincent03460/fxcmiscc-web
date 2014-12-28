@@ -3,7 +3,7 @@ use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
 <h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Technical Analysis") ?></h1>
-<p><?php echo __("Lesson 8 �? What is Technical Analysis?") ?></p>
+<p><?php echo __("Lesson 8 – What is Technical Analysis?") ?></p>
 <p><?php echo __("Technical analysis is the forecasting of future market trends and price movements through the research of market data and figures that are presented in charts. It is a perfect fusion of professional knowledge and the different methods of research. Technical analysis has the following advantages over fundamental analysis:") ?></p>
 <p><strong><?php echo __("(1) Operability:") ?></strong></p>
 <p><?php echo __("Any factors affecting the market will eventually be reflected in the price movements which can be plotted on a chart. By following the trends depicted by the graphs, we will be able to grasp the momentum of the market. This is something that fundamental analysis greatly lacks.") ?></p>
