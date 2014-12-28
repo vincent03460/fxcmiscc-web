@@ -18,3 +18,9 @@ $culture = $sf_user->getCulture();
     <li><?php echo __("Automated Trading") ?></li>
 </ol>
 <p><?php echo __("Get the ultimate solution for online trading, technical analysis and automated trading. With MetaTrader 4, you get everything you need to boost your trading.") ?></p>
+<h3><?php echo __("Download Meta Trader 4") ?></h3>
+<ul>
+    <li><a href="http://files.metaquotes.net/5994/mt4/cmis4setup.exe" target="_blank"><?php echo __("PC Version") ?></a></li>
+    <li><a href="http://itunes.apple.com/en/app/metatrader-4/id496212596" target="_blank"><?php echo __("iOS Version") ?></a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en" target="_blank"><?php echo __("Android Version") ?></a></li>
+</ul>
