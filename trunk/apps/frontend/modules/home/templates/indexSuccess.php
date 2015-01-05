@@ -129,21 +129,18 @@ $culture = $sf_user->getCulture();
     <h1><?php echo __("Download MetaTrader 4") ?></h1>
 
     <div class="download_col">
-        <a href="#"><img src="/images/windows.jpg"/></a>
-        <a href="#" class="donwload_link">Windows</a>
+        <a href="http://files.metaquotes.net/5994/mt4/cmis4setup.exe" target="_blank"><img src="/images/windows.jpg"/></a>
+        <a href="http://files.metaquotes.net/5994/mt4/cmis4setup.exe" target="_blank" class="donwload_link">Windows</a>
     </div>
 
     <div class="download_col">
-        <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596?mt=8" target="_blank"><img
-                src="/images/ios.jpg"/></a>
-        <a href="https://itunes.apple.com/en/app/metatrader-4/id496212596?mt=8" target="_blank" class="donwload_link">iOS</a>
+        <a href="http://itunes.apple.com/en/app/metatrader-4/id496212596" target="_blank"><img src="/images/ios.jpg"/></a>
+        <a href="http://itunes.apple.com/en/app/metatrader-4/id496212596" target="_blank" class="donwload_link">iOS</a>
     </div>
 
     <div class="download_col">
-        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"><img
-                src="/images/android.jpg"/></a>
-        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"
-           class="donwload_link">Android</a>
+        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en" target="_blank"><img src="/images/android.jpg"/></a>
+        <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en" target="_blank" class="donwload_link">Android</a>
     </div>
 
     <div class="clear"></div>

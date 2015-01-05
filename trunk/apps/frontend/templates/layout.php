@@ -103,13 +103,7 @@ $culture = $sf_user->getCulture();
                     <h4 class="widget-title"><?php echo __("Contact") ?></h4>
                     <ul>
                         <li>
-                            <b><?php echo __("UK") ?>:</b> <?php echo __("Level 40 25 Canada Square London E14 5LQF") ?>
-                        </li>
-                        <li>
-                            <b><?php echo __("HK") ?>:</b> <?php echo __("Room 15A, 15/F Hillier Commercial Centre 65-67 Bonham Strand East Sheung Wan Hong Kong") ?>
-                        </li>
-                        <li>
-                            <b><?php echo __("Email") ?>:</b> <a href="#">support@fxcmiscc.com</a>
+                            <b><?php echo __("Email") ?>:</b> <a href="#">support@fxcmisc.com</a>
                         </li>
                     </ul>
                 </div>

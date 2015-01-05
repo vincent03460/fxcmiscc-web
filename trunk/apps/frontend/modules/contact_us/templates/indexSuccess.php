@@ -49,7 +49,7 @@ $culture = $sf_user->getCulture();
     <iframe width="430" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.my/maps?q=Bonham+Strand+East+Sheung+Wan+Hong+Kong&amp;hl=en&amp;sll=51.504896,-0.01693&amp;sspn=0.010779,0.033023&amp;t=m&amp;hnear=Bonham+Strand,+Hong+Kong&amp;z=17&amp;output=embed"></iframe>
     <br/>
     <small><a href="http://maps.google.com.my/maps?q=Bonham+Strand+East+Sheung+Wan+Hong+Kong&amp;hl=en&amp;sll=51.504896,-0.01693&amp;sspn=0.010779,0.033023&amp;t=m&amp;hnear=Bonham+Strand,+Hong+Kong&amp;z=17&amp;source=embed" target="_new" style="color:#0000FF;text-align:left"><?php echo __("View larger map") ?></a></small>
-    <p><strong><?php echo __("Email") ?></strong>: <a href="#">support@fxcmiscc.com</a></p>
+    <p><strong><?php echo __("Email") ?></strong>: <a href="#">support@fxcmisc.com</a></p>
 </div>
 
 <!-- Preload if image is big-->
