@@ -116,8 +116,8 @@ $culture = $sf_user->getCulture();
         <a href="#" class="icon_user" style="padding-left:5px;"></a>
         <a href="/contact_us" class="icon_email"></a>
 
-        <a href="home/live_Account" class="open_demo_account"></a>
-        <a href="home/demo_Account" class="open_live_account"></a>
+        <a href="/home/demo_Account" class="open_demo_account"></a>
+        <a href="/home/live_Account" class="open_live_account"></a>
 
     </div>
 

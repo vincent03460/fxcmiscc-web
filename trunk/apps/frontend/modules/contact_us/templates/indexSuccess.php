@@ -33,23 +33,7 @@ $culture = $sf_user->getCulture();
 </div>
 
 <div class="right" style="width:450px;">
-    <h2><?php echo __("Address") ?></h2>
-
-    <h3><?php echo __("United Kingdom (UK)") ?></h3>
-
-    <p><?php echo __("Level 40 25 Canada Square London E14 5LQF") ?></p>
-    <iframe width="430" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.my/maps?q=25+Canada+Square,+London,+UK&amp;hl=en&amp;sll=3.232214,101.380968&amp;sspn=2.212828,4.22699&amp;t=m&amp;hnear=25+Canada+Square,+London+E14,+United+Kingdom&amp;z=16&amp;output=embed"></iframe>
     <br/>
-    <small><a href="http://maps.google.com.my/maps?q=25+Canada+Square,+London,+UK&amp;hl=en&amp;sll=3.232214,101.380968&amp;sspn=2.212828,4.22699&amp;t=m&amp;hnear=25+Canada+Square,+London+E14,+United+Kingdom&amp;z=16&amp;source=embed" target="_new" style="color:#0000FF;text-align:left"><?php echo __("View larger map") ?></a></small>
-    <h3> </h3>
-
-    <h3><?php echo __("Hong Kong (HK)") ?></h3>
-
-    <p><?php echo __("Room 15A, 15/F Hillier Commercial Centre 65-67 Bonham Strand East Sheung Wan Hong Kong") ?></p>
-    <iframe width="430" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.my/maps?q=Bonham+Strand+East+Sheung+Wan+Hong+Kong&amp;hl=en&amp;sll=51.504896,-0.01693&amp;sspn=0.010779,0.033023&amp;t=m&amp;hnear=Bonham+Strand,+Hong+Kong&amp;z=17&amp;output=embed"></iframe>
-    <br/>
-    <small><a href="http://maps.google.com.my/maps?q=Bonham+Strand+East+Sheung+Wan+Hong+Kong&amp;hl=en&amp;sll=51.504896,-0.01693&amp;sspn=0.010779,0.033023&amp;t=m&amp;hnear=Bonham+Strand,+Hong+Kong&amp;z=17&amp;source=embed" target="_new" style="color:#0000FF;text-align:left"><?php echo __("View larger map") ?></a></small>
-    <p><strong><?php echo __("Email") ?></strong>: <a href="#">support@fxcmisc.com</a></p>
 </div>
 
 <!-- Preload if image is big-->
