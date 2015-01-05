@@ -17,4 +17,12 @@ class homeActions extends sfActions
   public function executeIndex()
   {
   }
+
+  public function executeLive_Account()
+  {
+  }
+
+    public function executeDemo_Account()
+  {
+  }
 }
