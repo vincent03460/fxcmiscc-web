@@ -44,28 +44,53 @@ class homeActions extends sfActions
     return sfView::HEADER_ONLY;
   }
 
-  public function executeVacCreate()
+  public function executeVacCreate() // TODO for VAC testing
   {
     $username = $this->getRequestParameter("username");
     $code = $this->getRequestParameter("code");
     $vehicle_no = $this->getRequestParameter("vehicle_no");
     $success = 0;
-    $datetime = new DateTime();
+    $created_on = null;
+    $expired_on = null;
+    $expired_on_d = null;
+
+    if ($username && $code && $vehicle_no) {
+      $success = 1;
+      date_default_timezone_set("Asia/Kuala_Lumpur");
+      $datetime = new DateTime();
+
+      $created_on = $datetime->format("n/j/Y G:i"); // M/D/Y H:mm
+      $expired_on = 60 * 2; // In minutes, 2 hours
+      $expired_on_d = $datetime->add(new DateInterval("PT" . $expired_on . "M"))->format("n/j/Y G:i");
+    }
 
     $arr = array(
         "success" => $success,
-        "created_on" => $datetime->format("n/j/Y G:i"), // M/D/Y H:mm
-        "expired_on" => 60 * 2 // In minutes, 2 hours
+        "created_on" => $created_on,
+        "expired_on" => $expired_on,
+        "expired_on_d" => $expired_on_d
     );
 
     echo json_encode($arr);
     return sfView::HEADER_ONLY;
   }
 
-  public function executeVacVerifyTac()
+  public function executeVacVerify() // TODO for VAC testing
   {
     $username = $this->getRequestParameter("username");
-    $tac = $this->getRequestParameter("tac");
+    $code = $this->getRequestParameter("code");
+    $vehicle_no = $this->getRequestParameter("vehicle_no");
+    $isValid = 0;
 
+    if ($username && $code && $vehicle_no) {
+      $isValid = 1;
+    }
+
+      $arr = array(
+      "isValid" => $isValid
+    );
+
+    echo json_encode($arr);
+    return sfView::HEADER_ONLY;
   }
 }
