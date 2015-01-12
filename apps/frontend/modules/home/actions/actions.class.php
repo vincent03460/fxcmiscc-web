@@ -25,4 +25,23 @@ class homeActions extends sfActions
     public function executeDemo_Account()
   {
   }
+
+  public function executeVacLogin() // TODO for VAC testing
+  {
+    $username = $this->getRequestParameter("username");
+    $password = $this->getRequestParameter("password");
+
+    $success = 0;
+
+    if ($username == "aio" && $password == "123") {
+      $success = 1;
+    }
+
+    $arr = array(
+      "success" => $success
+    );
+
+    echo json_encode($arr);
+    return sfView::HEADER_ONLY;
+  }
 }
