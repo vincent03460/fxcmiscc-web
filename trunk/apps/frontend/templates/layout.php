@@ -38,8 +38,7 @@ $culture = $sf_user->getCulture();
         <div class="right">
 
             <ul class="social right">
-                <li><a title="Follow us on fb" class="social-icon fb" href="#"></a></li>
-                <li><a title="Follow us on twitter" class="social-icon twitter" href="#"></a></li>
+                <li><a title="Partner Area" href="http://partner.fxcmisc.com">Partner Area Login</a></li>
             </ul>
 
             <div id="google_translate_element" class="right"></div>
