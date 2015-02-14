@@ -52,7 +52,7 @@ $culture = $sf_user->getCulture();
 
     <header id="header">
         <div id="header-inner">
-            <div id="logo"><a href="index.html" class="logo"><img src="/images/logo.png" style="height:100px;"></a></div>
+            <div id="logo"><a href="index.html" class="logo"><img src="/images/logo.png" style="height:80px;"></a></div>
 
             <div id="access" role="navigation">
                 <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content"><?php echo __("Skip to content") ?></a></div>
@@ -115,7 +115,7 @@ $culture = $sf_user->getCulture();
     <div class="footer_last">
         <div class="bank_logo left">
             <strong><?php echo __("We Accept") ?></strong><br/>
-            <img src="/images/banklogo.png"/>
+            <img src="/images/banklogo.png"/>			
         </div>
 
         <div class="right" style="margin-top:24px;">
