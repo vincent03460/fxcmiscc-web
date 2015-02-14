@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
@@ -52,7 +52,7 @@ $culture = $sf_user->getCulture();
 
     <header id="header">
         <div id="header-inner">
-            <div id="logo"><a href="index.html" class="logo"><img src="/images/logo.png"></a></div>
+            <div id="logo"><a href="index.html" class="logo"><img src="/images/logo.png" style="height:100px;"></a></div>
 
             <div id="access" role="navigation">
                 <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content"><?php echo __("Skip to content") ?></a></div>
