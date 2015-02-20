@@ -3,37 +3,37 @@ use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
 <h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Forex Essentials") ?></h1>
-<p><?php echo __("Lesson 1 – What Is Forex?") ?></p>
 <p><strong><?php echo __("What Is Forex?") ?></strong></p>
 <p><?php echo __("Foreign exchange is the simultaneous buying of one currency and selling of another. Currencies are traded through a broker or dealer and are executed in currency pairs; for example, the Euro Dollar and the US Dollar (EUR/USD) or the British Pound and the Japanese Yen (GBP/JPY).") ?></p>
 <p><?php echo __("The Foreign Exchange, also referred as “Forex” is the largest financial market in the world, with an estimated volume of $4 trillion in currencies traded daily. Forex provides income to millions of traders and large banks worldwide. It is the mechanism by which currencies are valued relative to one another, and exchanged. An individual or institution buys one currency and sells another in a simultaneous transaction. Currency trading always occurs in pairs where one currency is sold for another. The value of a currency is a reflection of the condition of that country’s economy with respect to other major economies. A trader can earn money by either buying or selling the currency.") ?></p>
-<p><?php echo __("Unlike other financial markets, the Forex spot market has neither a physical location nor a central exchange. It operates through an electronic network of banks, corporations, and individuals trading one currency for another. The lack of a physical exchange enables the Forex market to operate on a 24-hour basis, spanning from one time zone to another across the major financial centers. The fact that there is no centralized exchange is important to keep in mind as it permeates all aspects of the Forex experience.") ?></p>
+<p><?php echo __("Unlike other financial markets, the Forex spot market has neither a physical location nor a central exchange. It operates through an electronic network of banks, corporations, and individuals trading one currency for another. The lack of a physical exchange enables the Forex market to operate on a 24-hour basis, spanning from one time zone to another across the major financial centres. The fact that there is no centralized exchange is important to keep in mind as it permeates all aspects of the Forex experience.") ?></p>
+
 <p><strong><?php echo __("Advantage of Forex") ?></strong></p>
 <p><?php echo __("In today’s marketplace, the dollar constantly fluctuates against the other currencies of the world. Several factors, such as the decline of global equity markets and declining world interest rates, have forced investors to pursue new opportunities.") ?></p>
 <p><?php echo __("The global increase in trade and foreign investments has led to many national economies becoming interconnected with one another. This interconnection and the resulting fluctuations in exchange rates have created a huge international market: Forex. This market offers unmatched potential for profitable trading in any market condition or any stage of the business cycle. These factors equate to the following advantages") ?></p>
 <p><?php echo __("There are five things give trading the forex market some unique advantages.") ?></p>
 <p>
-    <?php echo __("1. 24 Hour Market") ?>
+    <b><?php echo __("1. 24 Hour Market") ?></b>
     <br/>
     <?php echo __("Since the forex market is worldwide, trading is continuous as long as there is a market open somewhere in the world. Trading starts when the markets open in Australia on Sunday evening, and ends after markets close in New York on Friday.") ?>
 </p>
 <p>
-    <?php echo __("2. High Liquidity") ?>
+    <b><?php echo __("2. High Liquidity") ?></b>
     <br/>
     <?php echo __("Liquidity is the ability of an asset to be converted into cash quickly and without any price discount. In forex this means we can move large amounts of money into and out of foreign currency with minimal price movement.") ?>
 </p>
 <p>
-    <?php echo __("3. Low Transaction Cost") ?>
+    <b><?php echo __("3. Low Transaction Cost") ?></b>
     <br/>
     <?php echo __("In forex, typically the cost for a transaction is built into the price. It is called the spread. The spread is the difference between the buying and selling price.") ?>
 </p>
 <p>
-    <?php echo __("4. Leverage") ?>
+    <b><?php echo __("4. Leverage") ?></b>
     <br/>
     <?php echo __("Forex Brokers allow traders to trade the market using leverage. Leverage is the ability to trade more money on the market than what is actually in the trader’s account. If you were to trade at 50:1 leverage, you could trade $50 on the market for every $1 that was in your account. This means you could control a trade of $50,000 using only $1000 of capital.") ?>
 </p>
 <p>
-    <?php echo __("5. Profit Potential from Rising and Falling Prices") ?>
+    <b><?php echo __("5. Profit Potential from Rising and Falling Prices") ?></b>
     <br/>
     <?php echo __("The forex market has no restrictions for directional trading. This means, if you think a currency pair is going to increase in value; you can buy it, or go long. Similarly, if you think it could decrease in value you can sell it, or go short.") ?>
 </p>
@@ -42,13 +42,13 @@ $culture = $sf_user->getCulture();
 <p><strong><?php echo __("Contract Sizes and Leverage") ?></strong></p>
 <p><?php echo __("Contract sizes or better known as lots, is a necessary foundation when understanding the need and benefit for high leverage in the Forex market. Since one standard lot traded in the Forex market is a $100,000 contract, a trader is essentially placing a $100,000 trade in the market without leverage. As a result, most investors would difficult to afford such a transaction.") ?></p>
 <p>
-    <?php echo __("Example:") ?>
+    <b><?php echo __("Example:") ?></b>
     <br/>
     <?php echo __("The offer of leverage of 500:1 would allow a trader to place the same one lot ($100,000) trade with only the post of $200 in the Used Margin to control a $100,000 position.") ?>
 </p>
 <p><strong><?php echo __("Margin Call") ?></strong><br/><?php echo __("In event of the Equity (the value of your account) falls below the Used Margin due to trading losses, you will have to deposit more fund into your account or otherwise the trading platform will automatically close some or all of your trading position at the market price to prevent your account from falling into a negative balance. In order to continue trading after margin call, you have to deposit more fund into the account.") ?></p>
 <p>
-    <?php echo __("Example:") ?>
+    <b><?php echo __("Example:") ?></b>
     <br/>
     <?php echo __("Trader A with a deposit of $5,000 USD for FX-CMISC standard account, he had open one standard lot of long position on EURUSD. With the leverage of 500:1, he had used up $200 USD to hold this position with the remaining $4,800 as the Free Margin to open trade with and prevent margin call.") ?>
 </p>

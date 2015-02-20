@@ -2,8 +2,7 @@
 use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
-<h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Characteristics") ?></h1>
-<p><?php echo __("Lesson 4 – Characteristics of the Forex Market") ?></p>
+<h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Characteristics of the Forex Market") ?></h1>
 <p><strong><?php echo __("24-Hour Market") ?></strong></p>
 <p><?php echo __("Other than the weekends when it is closed, the forex market is open 24 hours a day. There is no need to wait for the market to open and you can trade anytime you like. This flexibility has enabled many working professionals to take on forex trading as a side job. They can trade in the morning, afternoon, night or whenever they are free. The best thing is that this also means that no one can monopolize the market!") ?></p>
 <p><?php echo __("The forex market is so huge that no single entity, be it an organization, a group, a central bank or even the government can control the market trend.") ?></p>

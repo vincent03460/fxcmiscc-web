@@ -3,7 +3,6 @@ use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
 <h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Fundamental Analysis") ?></h1>
-<p><?php echo __("Lesson 7 – Fundamental Analysis") ?></p>
 <p><?php echo __("Fundamental analysis is the methodical analysis of a collection of relevant market information within a specific time frame in order to determine the intrinsic value of the market which is used to compare against actual market prices so as to derive a conclusion on the market.") ?></p>
 <p><?php echo __("Fundamental analysis is a form of macroeconomics. Its biggest advantage is that it establishes cause and effect using scientific and rigorous analysis. However, in practical application, most investors think it lacks operability.") ?></p>
 <p><?php echo __("The main reasons are:") ?></p>

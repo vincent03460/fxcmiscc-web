@@ -33,7 +33,10 @@ $culture = $sf_user->getCulture();
 </div>
 
 <div class="right" style="width:450px;">
-    <br/>
+    <p><h2>Address</h2></p>
+    <p><strong><div style="color:red;">Hong Kong (HK)</div></strong></p>
+    <p>Suite 2602-3, BEA Tower (APM), 418 Kwun Tong Road, Kwun Tong, Kowloon, Hong Kong.</p>
+    <p><b>Email</b>: support@fxcmisc.com</p>
 </div>
 
 <!-- Preload if image is big-->
