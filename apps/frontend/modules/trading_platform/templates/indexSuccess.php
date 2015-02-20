@@ -5,9 +5,9 @@ $culture = $sf_user->getCulture();
 <h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Meta Trader 4") ?></h1>
 <p><img src="/images/slide5.jpg" alt="" title="slide5" width="940" height="380" class="alignleft size-full wp-image-119"/></p>
 <p><img src="/images/mt4.png" alt="" title="mt4" width="912" height="406" class="alignleft size-full wp-image-120"/></p>
-<p><?php echo __("FX-CMISC users that prefer a more automated trading approach and additional investment strategies will benefit from our powerful MetaTrader 4 trading platform. Our MT4 Client Terminal is designed to provide traders with accessible real time market analysis, which include charts, indices, and news updates.") ?></p>
+<p><?php echo __("CMIS Trader users that prefer a more automated trading approach and additional investment strategies will benefit from our powerful MetaTrader 4 trading platform. Our MT4 Client Terminal is designed to provide traders with accessible real time market analysis, which include charts, indices, and news updates.") ?></p>
 <p><?php echo __("In addition, users have more trading options, custom indicators and strategies, which can enhance performance and increase profitability. The MetaTrader 4 Client Terminal has an ergonomic and simple user interface, allowing traders to find information quickly and respond to market conditions. MetaTrader 4 is compatible with all Expert Advisor applications. These automated trading systems are designed to analyze the market and automatically make trades according to underlying investment strategies.") ?></p>
-<p><strong><?php echo __("Benefits of Meta Trader 4") ?></strong></p>
+<?php echo __("Benefits of Meta Trader 4:") ?>
 <ol>
     <li><?php echo __("Internal email service") ?></li>
     <li><?php echo __("Simple user interface") ?></li>

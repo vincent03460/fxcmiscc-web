@@ -2,8 +2,7 @@
 use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
-<h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Key Factors") ?></h1>
-<p><?php echo __("Lesson 6 – Key Factors Affecting Exchange Rate") ?></p>
+<h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("Key Factors Affecting Exchange Rate") ?></h1>
 <p><?php echo __("All forex trading involves the exchange of one currency with another. At any one time, the actual exchange rate is determined by the supply and demand of the corresponding currencies. Keep in mind that the demand of a certain currency is directly linked to the supply of another. Likewise, when you supply a certain currency, it would mean that you have the demand for another currency. The following factors affect the supply and demand of currencies and would therefore influence their exchange rates.") ?></p>
 <p><strong><?php echo __("1. Monetary Policy") ?></strong></p>
 <p><?php echo __("When a central bank believes that intervention in the forex market is effective and the results would be consistent with the government’s monetary policy, it will participate in forex trading and influence the exchange rates. A central bank generally participates by buying or selling the domestic currency so as to stabilize it at a level that it deems realistic and ideal. Judgment on the possible impact of government’s monetary policy and prediction on future policy by other market players will affect the exchange rates as well.") ?></p>

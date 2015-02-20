@@ -17,7 +17,10 @@ class fx_cmiscActions extends sfActions
   public function executeIndex()
   {
   }
-  public function executeWhiteLabel()
+  public function executeVisionGoal()
+  {
+  }
+  public function executeOurTeam()
   {
   }
 }

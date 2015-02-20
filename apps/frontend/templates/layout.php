@@ -52,7 +52,7 @@ $culture = $sf_user->getCulture();
 
     <header id="header">
         <div id="header-inner">
-            <div id="logo"><a href="index.html" class="logo"><img src="/images/logo.png" style="height:80px;"></a></div>
+            <div id="logo"><a href="/home" class="logo"><img src="/images/logo.png" style="height:80px;"></a></div>
 
             <div id="access" role="navigation">
                 <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content"><?php echo __("Skip to content") ?></a></div>
@@ -75,9 +75,9 @@ $culture = $sf_user->getCulture();
     <footer id="footer">
         <div class="row" id="footer-inner">
             <div class="one-third first   widget widget_text" id="text-2">
-                <h4 class="widget-title"><?php echo __("About FX-CMISC") ?></h4>
+                <h4 class="widget-title"><?php echo __("About CMIS Trader") ?></h4>
 
-                <div class="textwidget"><?php echo __("FX-CMISC offers a one-stop service to traders and investors with different trading backgrounds and objectives to gain access to the foreign exchange market.") ?></div>
+                <div class="textwidget"><?php echo __("CMIS Trader offers a one-stop service to traders and investors with different trading backgrounds and objectives to gain access to the foreign exchange market.") ?></div>
             </div>
             <div class="one-third  widget corpo_recent_posts_widget" id="corpo_recent_posts_widget-2">
                 <div class="widget recent-posts">
@@ -101,6 +101,9 @@ $culture = $sf_user->getCulture();
                 <div class="widget contact">
                     <h4 class="widget-title"><?php echo __("Contact") ?></h4>
                     <ul>
+                        <li>
+                            <b><?php echo __("HK") ?>:</b>Suite 2602-3, BEA Tower (APM), 418 Kwun Tong Road, Kwun Tong, Kowloon, Hong Kong.
+                        </li>
                         <li>
                             <b><?php echo __("Email") ?>:</b> <a href="#">support@fxcmisc.com</a>
                         </li>

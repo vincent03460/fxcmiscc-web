@@ -7,8 +7,9 @@ $culture = $sf_user->getCulture();
         <li class="page_item"><a href="/home" title="<?php echo __("Home") ?>"><?php echo __("Home") ?></a></li>
         <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("FX-CMISC") ?>"><?php echo __("FX-CMISC") ?></a>
             <ul class='children'>
-                <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("Our Team") ?>"><?php echo __("Our Team") ?></a></li>
-                <li class="page_item"><a href="/fx_cmisc/whiteLabel" title="<?php echo __("White Label") ?>"><?php echo __("White Label") ?></a></li>
+                <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("About Us") ?>"><?php echo __("About Us") ?></a></li>
+                <li class="page_item"><a href="/fx_cmisc/visionGoal" title="<?php echo __("Vision & Goal") ?>"><?php echo __("Vision & Goal") ?></a></li>
+                <li class="page_item"><a href="/fx_cmisc/ourTeam" title="<?php echo __("Our Team") ?>"><?php echo __("Our Team") ?></a></li>
             </ul>
         </li>
         <li class="page_item"><a href="/forex_education" title="<?php echo __("FOREX Education") ?>"><?php echo __("FOREX Education") ?></a>
@@ -23,16 +24,14 @@ $culture = $sf_user->getCulture();
             </ul>
         </li>
         <li class="page_item"><a href="/trading_platform" title="<?php echo __("Trading Platform") ?>"><?php echo __("Trading Platform") ?></a>
-            <ul class='children'>
-                <li class="page_item"><a href="/trading_platform" title="<?php echo __("Meta Trader 4") ?>"><?php echo __("Meta Trader 4") ?></a></li>
-                <li class="page_item"><a href="/trading_platform/tradingSignal" title="<?php echo __("Trading Signal") ?>"><?php echo __("Trading Signal") ?></a></li>
-            </ul>
         </li>
         <li class="page_item"><a href="/trading_products" title="<?php echo __("Trading Products") ?>"><?php echo __("Trading Products") ?></a>
             <ul class='children'>
                 <li class="page_item"><a href="/trading_products" title="<?php echo __("Forex (FX)") ?>"><?php echo __("Forex (FX)") ?></a></li>
                 <li class="page_item"><a href="/trading_products/cfds" title="<?php echo __("CFDs") ?>"><?php echo __("CFDs") ?></a></li>
                 <li class="page_item"><a href="/trading_products/preciousMetals" title="<?php echo __("Precious Metals") ?>"><?php echo __("Precious Metals") ?></a></li>
+                <li class="page_item"><a href="/trading_products/future" title="<?php echo __("Future") ?>"><?php echo __("Future") ?></a></li>
+                <li class="page_item"><a href="/trading_products/indexx" title="<?php echo __("Index") ?>"><?php echo __("Index") ?></a></li>
             </ul>
         </li>
         <li class="page_item"><a href="/contact_us" title="<?php echo __("Contact Us") ?>"><?php echo __("Contact Us") ?></a>
