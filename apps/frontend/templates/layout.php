@@ -8,7 +8,7 @@ $culture = $sf_user->getCulture();
 <head>
     <meta charset="UTF-8"/>
 
-    <title><?php echo __("FX-CMISC") ?></title>
+    <title><?php echo __("CMISC") ?></title>
 
     <link rel="shortcut icon" href="favicon.ico">
 

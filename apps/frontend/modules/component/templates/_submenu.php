@@ -5,7 +5,7 @@ $culture = $sf_user->getCulture();
 <div class="menu">
     <ul>
         <li class="page_item"><a href="/home" title="<?php echo __("Home") ?>"><?php echo __("Home") ?></a></li>
-        <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("FX-CMISC") ?>"><?php echo __("FX-CMISC") ?></a>
+        <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("CMISC") ?>"><?php echo __("CMISC") ?></a>
             <ul class='children'>
                 <li class="page_item"><a href="/fx_cmisc" title="<?php echo __("About Us") ?>"><?php echo __("About Us") ?></a></li>
                 <li class="page_item"><a href="/fx_cmisc/visionGoal" title="<?php echo __("Vision & Goal") ?>"><?php echo __("Vision & Goal") ?></a></li>
