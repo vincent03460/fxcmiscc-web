@@ -47,14 +47,51 @@ $culture = $sf_user->getCulture();
 </div>
 
 
-<script type='text/javascript' src='/js/jquery.form16e3.js'></script>
+<!--<script type='text/javascript' src='/js/jquery.form16e3.js'></script>-->
 <script type='text/javascript'>
 /* <![CDATA[ */
-var _wpcf7 = {
-	loaderUrl: "/images/ajax-loader.gif",
-	sending: "Sending...",
-	cached: "1"
-};
+//var _wpcf7 = {
+//	loaderUrl: "/images/ajax-loader.gif",
+//	sending: "Sending...",
+//	cached: "1"
+//};
+
+$("form").submit(function() {
+    if ($("form input[name='your-name']").val().length <= 0) {
+        alert("<?php echo __("Name cannot be blank.") ?>");
+        $("form input[name='your-name']").focus();
+        return false;
+    }
+
+    if ($("form input[name='your-email']").val().length <= 0) {
+        alert("<?php echo __("Email cannot be blank.") ?>");
+        $("form input[name='your-email']").focus();
+        return false;
+    }
+
+    if ($("form textarea[name='your-message']").val().length <= 0) {
+        alert("<?php echo __("Message cannot be blank.") ?>");
+        $("form textarea[name='your-message']").focus();
+        return false;
+    }
+
+    if ($("form input[name='captcha-95']").val().length <= 0) {
+        alert("<?php echo __("Security code cannot be blank.") ?>");
+        $("form input[name='captcha-95']").focus();
+        return false;
+    }
+
+    if ($("form input[name='captcha-95']").val() != "RHK9") {
+        alert("<?php echo __("Invalid security code.") ?>");
+        $("form input[name='captcha-95']").val("");
+        $("form input[name='captcha-95']").focus();
+        return false;
+    }
+
+    alert("<?php echo __("Your message has been sent, thank you. We will reply you shortly.") ?>");
+    window.location.href = "/contact-us";
+    return true;
+});
 /* ]]> */
 </script>
 <script type='text/javascript' src='/js/scriptsdeae.js'></script>
