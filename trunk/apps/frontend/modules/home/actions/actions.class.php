@@ -10,19 +10,19 @@
  */
 class homeActions extends sfActions
 {
-  /**
-   * Executes index action
-   *
-   */
-  public function executeIndex()
-  {
-  }
+    public function executeIndex()
+    {
+        // Pull RSS from website.
+        $rssUrl = "http://rss.forexfactory.net/news/all.xml";
+        $rss = new SimpleXMLElement(file_get_contents($rssUrl));
+        $this->rssNews = $rss->channel->item;
+    }
 
-  public function executeLive_Account()
-  {
-  }
+    public function executeLive_Account()
+    {
+    }
 
     public function executeDemo_Account()
-  {
-  }
+    {
+    }
 }

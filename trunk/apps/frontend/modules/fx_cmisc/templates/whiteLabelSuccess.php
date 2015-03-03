@@ -3,7 +3,7 @@ use_helper('I18N');
 $culture = $sf_user->getCulture();
 ?>
 <h1 style="border-bottom: 2px solid #E1E1E1; margin-top: 20px; padding-bottom: 8px;"><?php echo __("White Label") ?></h1>
-<p><?php echo __("The White Label Program is for ambitious market players to be broker themselves. FX-CMISC provides the full power and efficiency of MT4 suite of trading, risk management and back office administration tools.") ?></p>
+<p><?php echo __("The White Label Program is for ambitious market players to be broker themselves. CMIS provides the full power and efficiency of MT4 suite of trading, risk management and back office administration tools.") ?></p>
 <p><strong><?php echo __("Plans") ?></strong><br/>
     <?php echo __("Choose from our fine array of commission plans to suit your needs, including a sub-affiliate plan.") ?>
 </p>
@@ -23,5 +23,5 @@ $culture = $sf_user->getCulture();
     <?php echo __("Take advantage of our comprehensive selection of high-quality marketing tools for online and offline use. You’ll find our latest and hottest items right at your fingertips.") ?>
 </p>
 <p><strong><?php echo __("Support") ?></strong><br/>
-    <?php echo __("The FX-CMISC Affiliate Program Support Team is ready and waiting to assist you.") ?>
+    <?php echo __("The CMIS Affiliate Program Support Team is ready and waiting to assist you.") ?>
 </p>

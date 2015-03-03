@@ -8,7 +8,7 @@ $culture = $sf_user->getCulture();
 <head>
     <meta charset="UTF-8"/>
 
-    <title><?php echo __("CMISC") ?></title>
+    <title><?php echo __("CMIS") ?></title>
 
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -122,7 +122,7 @@ $culture = $sf_user->getCulture();
         </div>
 
         <div class="right" style="margin-top:24px;">
-            <?php echo __("Copyright © 2011 - 2014 FX-CMISC All Rights Reserved.") ?>
+            <?php echo __("Copyright © 2011 - 2014 CMIS Trader | All Rights Reserved.") ?>
         </div>
 
         <div class="clear"></div>

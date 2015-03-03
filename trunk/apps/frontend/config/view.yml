@@ -3,10 +3,10 @@ default:
     content-type: text/html
 
   metas:
-    title:        FX-CMISC
+    title:        CMIS
     robots:       index, follow
-    description:  FX-CMISC
-    keywords:     FX-CMISC
+    description:  CMIS
+    keywords:     CMIS
     language:     en
 
   stylesheets:    []
