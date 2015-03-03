@@ -93,15 +93,11 @@ $culture = $sf_user->getCulture();
             <ul style="list-style-type: none" class="xoxo">
                 <li id="rss-3" class="widget-container widget_rss"><h3 class="widget-title"><a class='rsswidget' href='http://www.dailyfx.com/feeds/forex_market_news' title='Syndicate this content'><img style='border:0' width='14' height='14' src='/images/rss.png' alt='RSS'/></a> <a class='rsswidget' href='http://www.dailyfx.com//feeds/forex_market_news?fmt=rss_2.0' title='Forex Market News'>DailyFX &#8211; Forex Market News</a></h3>
                     <ul>
+                    <?php for ($i = 0; $i < 3; $i++) { ?>
                         <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/daily_briefing/daily_pieces/commodities/2014/12/16/Crude-Remains-At-Risk-On-US-Inventories-Gold-Braces-For-FOMC-Decision.html?DFXfeeds=forex:fundamental:daily_briefing:daily_pieces:commodities' title='Crude oil may remain under pressure if upcoming US Inventories Data feeds supply glut concerns, while gold faces significant volatility on the back of the Fed decision. [&hellip;]'><?php echo __("Crude Remains At Risk On US Inventories, Gold Braces For FOMC Decision") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
+                            <a class='rsswidget' href="<?php echo $rssNews[$i]->link ?>" target="_blank" title="<?php echo $rssNews[$i]->title ?>"><?php echo $rssNews[$i]->title ?></a><span class="rss-date"><?php echo $rssNews[$i]->pubDate ?></span>
                         </li>
-                        <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/us_dollar_index/daily_dollar/2014/12/16/GBP-USD-Threatens-Range-Retains-Bullish-Momentum-Despite-Soft-UK-CPI.html?DFXfeeds=forex:fundamental:us_dollar_index:daily_dollar' title='GBP/USD may continue to threaten the range-bound price action carried over from the previous month as the bullish RSI momentum gathers pace. [&hellip;]'><?php echo __("GBP/USD Threatens Range, Retains Bullish Momentum Despite Soft UK CPI") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
-                        </li>
-                        <li>
-                            <a class='rsswidget' href='http://www.dailyfx.com/forex/fundamental/article/special_report/2014/12/16/forex-russian-ruble-trading-is-still-too-risky.html?DFXfeeds=forex:fundamental:article:special_report' title='The Russian Ruble continued sharply lower despite an aggressive reaction from the Central Bank of Russia. Here’s why we would avoid holding USD/RUB positions. [&hellip;]'><?php echo __("Russian Ruble Tumbles Further - Holding RUB Positions Far too Risky") ?></a><span class="rss-date"><?php echo __("December 16, 2014") ?></span>
-                        </li>
+                    <?php } ?>
                     </ul>
                 </li>
             </ul>
@@ -109,16 +105,11 @@ $culture = $sf_user->getCulture();
     </div>
 
     <div class="col left third_col" style="padding-top:30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
-        <!-- <a href="" class="open_live_account"></a>
-      <a href="" class="open_demo_account"></a>
-      <a href="" class="member_login"></a>-->
-
-        <a href="#" class="icon_user" style="padding-left:5px;"></a>
-        <a href="/contact_us" class="icon_email"></a>
+        <a href="http://partner.fxcmisc.com" target="_blank" class="icon_user" title="<?php echo __("Member login") ?>" style="padding-left:5px;"></a>
+        <a href="/contact_us" class="icon_email" title="<?php echo __("Contact us") ?>"></a>
 
         <a href="/home/demo_Account" class="open_demo_account"></a>
         <a href="/home/live_Account" class="open_live_account"></a>
-
     </div>
 
 </div><!--home_middle-->
